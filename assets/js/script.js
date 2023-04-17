@@ -108,12 +108,12 @@ const questions = [
         ]
     },
     {
-        question: "Example Question",
+        question: "What does the acronym DRY stand for?",
         answers: [
-            {text: 'A: ', correct: false},
-            {text: 'B: ', correct: false},
-            {text: 'C: ', correct: true},
-            {text: 'D: ', correct: false}
+            {text: "A: Don't. Run. Yourself", correct: false},
+            {text: "B: Don't. Repetition. Yourself", correct: false},
+            {text: "C: Don't. Repeat. Yourself", correct: true},
+            {text: "D: Don't. Run. Yorkshire", correct: false}
         ]
     }
 ]
