@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -10,8 +11,9 @@ body {
   color: #001b44;
 }
 
-label, p {
-  font-size: 30px;
+#click-start,
+#click-next {
+  font-size: 25px;
 }
 
 input {
@@ -23,7 +25,7 @@ input {
   border: 1px solid #001b44;
 }
 
-h1 {
+h1, button {
   text-align: center;
 }
 
@@ -55,17 +57,21 @@ li::after {
   clear: both;
 }
 
-li button {
-  float: right;
-  border: none;
-  height: 40px;
+button {
+  margin-top: 10px;
+  border: 2%;
+  border-color: #a724865d;
+  border-radius: 4px;
   cursor: pointer;
-  background-color: #ff34cc;
+  background-color: #ff34ccb3;
   color: white;
-  font-size: 1em;
 }
 
-head {
+.hide {
+  display: none;
+}
+
+header {
     display: block;
     background-color:	#ffe0fe;
     border: 1px solid #e3f4ff;
@@ -75,6 +81,7 @@ head {
     margin: 60px auto;
     padding: 20px;
     width: 40vw;
+    text-align: center;
 }
 
 .card {
@@ -87,4 +94,5 @@ head {
   margin: 60px auto;
   padding: 20px;
   width: 40vw;
+  text-align: center;
 }

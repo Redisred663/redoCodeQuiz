@@ -12,11 +12,22 @@
     <header class="head">Sweetie's Quiz Game!
     </header>
     <div class="card">
-        <h1>Time to Start Your Pop Quiz!</h1>
+        <div id="quest-container" class="hide">
+            <div id="questions">Question</div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn">A</button>
+                <button class="btn">B</button>
+                <button class="btn">C</button>
+                <button class="btn">D</button>
+            </div>
+        </div>
+        <div class="buttons">
+        <h1 id="start-title">Time to Start Your Pop Quiz!</h1>
         <form id="start-bar" method="PUT">
-            <label for="click-start">Click the button to start!</label>
-            <button type="click" placeholder="click click click..." name="click-start" id="click-start">
+            <button type="click" placeholder="clicker" name="click-start" id="click-start">Start Button</button>
+            <button type="click" placeholder="nexter" name="click-next" class="btn hide" id="click-next">Next Question</button>
         </form>
+        </div>
     </div>
     <script src="./assets/js/script.js"></script>
 </body>
